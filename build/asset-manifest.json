@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e4929e5.css",
+    "main.js": "/static/js/main.ad3e2db2.js",
+    "static/js/787.a0e6bca0.chunk.js": "/static/js/787.a0e6bca0.chunk.js",
+    "static/media/mywebsitesc.PNG": "/static/media/mywebsitesc.4128443a211a6b765591.PNG",
+    "static/media/toby.jpg": "/static/media/toby.9b3813f4bd2de58b1ce8.jpg",
+    "static/media/sixers.png": "/static/media/sixers.dca008cfdbcf5006aaf5.png",
+    "static/media/me.png": "/static/media/me.d405bf58cf46abc4076f.png",
+    "static/media/home2.jpg": "/static/media/home2.9560c5d668ddcbd5c762.jpg",
+    "static/media/resume.png": "/static/media/resume.eb6576e769e5f56ff46b.png",
+    "static/media/union.png": "/static/media/union.c8118317f6cf43902de5.png",
+    "static/media/Blexcloud3.png": "/static/media/Blexcloud3.93561753e835789bee0b.png",
+    "static/media/fightins.png": "/static/media/fightins.2cced13a033fdd6e0a07.png",
+    "static/media/flyers.png": "/static/media/flyers.86aaa9c4418b2e8c95b2.png",
+    "static/media/pct.png": "/static/media/pct.7b36773f5d11e7b45500.png",
+    "static/media/eagles.png": "/static/media/eagles.ad74c90b0f88c7a6c0a4.png",
+    "static/media/AIPR1.jpg": "/static/media/AIPR1.ae4b179b7be1fd71e970.jpg",
+    "static/media/psu.png": "/static/media/psu.bd6fc2a0c8a1d55cb8fa.png",
+    "static/media/Blexcloud1.PNG": "/static/media/Blexcloud1.bded69d543df74c8d7e3.PNG",
+    "static/media/email.png": "/static/media/email.8fc21969c09d93565c9e.png",
+    "static/media/Blexcloud2.PNG": "/static/media/Blexcloud2.b38fa8dc5856a76b57ef.PNG",
+    "index.html": "/index.html",
+    "main.5e4929e5.css.map": "/static/css/main.5e4929e5.css.map",
+    "main.ad3e2db2.js.map": "/static/js/main.ad3e2db2.js.map",
+    "787.a0e6bca0.chunk.js.map": "/static/js/787.a0e6bca0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e4929e5.css",
+    "static/js/main.ad3e2db2.js"
+  ]
+}
