@@ -68,17 +68,17 @@ const Projects = ({ setCurrentPage }) => {
             <p></p>
             <p><a href="https://github.com/Blex214/blexcloud" target="_blank" rel="noopener noreferrer" style={{ color: 'grey' }}>The code</a></p>
           </div>
-          <img src={require('./images/Blexcloud1.PNG')} alt="Toby" style={imageStyle} />
+          <img src={require('./images/Blexcloud1.png')} alt="Blexcloud1" style={imageStyle} />
           <p></p>
-          <img src={require('./images/Blexcloud2.PNG')} alt="Toby" style={imageStyle} />
+          <img src={require('./images/Blexcloud2.png')} alt="Blexcloud2" style={imageStyle} />
           <p></p>
-          <img src={require('./images/Blexcloud3.png')} alt="Toby" style={imageStyle} />
+          <img src={require('./images/Blexcloud3.png')} alt="Blexcloud3" style={imageStyle} />
         </div>
       </div>
 
       <div style={projectContainerStyle}>
         <div style={projectBoxStyle}>
-          <img src={require('./images/AIPR1.jpg')} alt="Toby" style={imageStyle} />
+          <img src={require('./images/AIPR1.jpg')} alt="AIPR1" style={imageStyle} />
           <div style={descriptionStyle}>
             <h2>AI Powered Recycling ~ AIPR</h2>
             <p>An award winning solution for sorting recyclable waste using artificial intellgience and robotics</p>
@@ -106,7 +106,7 @@ const Projects = ({ setCurrentPage }) => {
           <p></p>
           <p></p>
           <p></p>
-          <img src={require('./images/mywebsitesc.PNG')} alt="Toby" target="_blank" rel="noopener noreferrer" style={imageStyle} />
+          <img src={require('./images/mywebsite.png')} alt="mysite1" target="_blank" rel="noopener noreferrer" style={imageStyle} />
         </div>
       </div>
 
