@@ -101,7 +101,7 @@ const Projects = ({ setCurrentPage }) => {
             <p></p>
             <p></p>
             <p></p>
-            <p><a href="https://github.com/Blex214/Discord-Bot-Toby" target="_blank" rel="noopener noreferrer" style={{ color: 'grey' }}>The code</a></p>
+            <p><a href="https://github.com/Blex214/eportfolio" target="_blank" rel="noopener noreferrer" style={{ color: 'grey' }}>The code</a></p>
           </div>
           <p></p>
           <p></p>
