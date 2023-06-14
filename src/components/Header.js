@@ -1,5 +1,5 @@
 import React from 'react';
-
+import BlogPosts from './blogposts';
 const Header = ({ setCurrentPage }) => {
   const handleLinkClick = (page) => {
     setCurrentPage(page);
@@ -45,11 +45,16 @@ const Header = ({ setCurrentPage }) => {
       </nav>
 
       <div style={bioBoxStyle}>
-        <h2>Welcome!</h2>
+        <h2>Recent Activity</h2>
         <p>
-          This is my personal website where I post what I'm up to and all about me!
+          Posts:
         </p>
       </div>
+
+      <div>
+        <BlogPosts/>
+      </div>
+
     </header>
     
   );
