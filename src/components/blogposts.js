@@ -13,7 +13,7 @@ const blogPosts = [
     title: 'Follow MarcusHouse and NASASpaceFlight!',
     content: 
 `
-Ever since Starhopper I have been following SpaceX as they attempt to make the first fully reusable rocket Starship. However, all the progress has been at StarBase in remote Boca Chica, Texas. Thanks to the hard work of Youtube channels like MarcusHouse and NASASpacFLight, I have been able to get daily updates on the construction of Starbase, each Starship iteration and even static fires. If you want to learn more about how SpaceX is planning on making life multiplanetary I highly recommend these two Youtube channels.
+Ever since Starhopper I have been following SpaceX as they attempt to make the first fully reusable rocket Starship. However, all the progress has been at StarBase in remote Boca Chica, Texas. Thanks to the hard work of Youtube channels like MarcusHouse and NASASpaceFlight, I have been able to get daily updates on the construction of Starbase, each Starship iteration and even static fires. If you want to learn more about how SpaceX is planning on making life multiplanetary I highly recommend these two Youtube channels.
 
 MarcusHouse: Weekly updates of SpaceX and many other space industry events
 NASASpaceFlight: 24/7 livestream of Starbase and special live coverage of major events`,
