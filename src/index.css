@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container {
+  display: -webkit-flex; /* Safari-specific prefix for flexbox */
+  display: flex; /* Standard flexbox display */
+  -webkit-flex-direction: column; /* Safari-specific prefix for flex direction */
+  flex-direction: column; /* Standard flex direction */
+}
