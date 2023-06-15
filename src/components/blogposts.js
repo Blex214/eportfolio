@@ -42,6 +42,21 @@ Max q: This describes the point during flight where the rocket experiences the m
 
 Congratulations again to SpaceX for their successful test!`,
   },
+  {
+    id: 3,
+    date: 'Posted June 15, 2023',
+    preview: {
+      type: 'image',
+      url: 'tobypost1.jpg', 
+      type2: 'image',
+      url2:'tobypost2.jpg',
+    },
+    
+    title: 'Happy 9th Birthday Toby!',
+    content: 
+`
+`,
+  },
 ];
 
 const reversedBlogPosts = blogPosts.slice().reverse();
@@ -54,7 +69,11 @@ const BlogPosts = () => {
           <p style={dateStyle}>{post.date}</p>
           <h2>{post.title}</h2>
           {post.preview.type === 'image' ? (
-            <img src={post.preview.url} alt="Preview" style={previewStyle} />
+            <>
+            {post.preview.url &&(
+              <img src={require(`./images/${post.preview.url}`)} alt="Preview" style={imageStyle} />
+            )}
+            </>
           ) : (
             <>
               {post.preview.url && (
@@ -68,12 +87,23 @@ const BlogPosts = () => {
                   style={previewStyle}
                 />
               )}
+            </>
+          )}
+
+          {post.preview.type2 === 'image' ? (
+            <>
+            {post.preview.url2 &&(
+              <img src={require(`./images/${post.preview.url2}`)} alt="Preview" style={imageStyle} />
+            )}
+            </>
+          ) : (
+            <>
               {post.preview.url2 && (
                 <iframe
                   width="560"
                   height="315"
                   src={post.preview.url2}
-                  title="Another Preview"
+                  title="Preview"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media"
                   style={previewStyle}
@@ -122,6 +152,10 @@ const contentStyle = {
 
 const previewStyle = {
   maxWidth: '100%',
+  marginBottom: '10px',
+};
+const imageStyle = {
+  maxWidth: '50%',
   marginBottom: '10px',
 };
 
