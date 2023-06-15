@@ -9,6 +9,8 @@ body {
   color: #ffffff;
   background-image: url('../images/home2.jpg');
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
