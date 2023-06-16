@@ -57,6 +57,34 @@ Congratulations again to SpaceX for their successful test!`,
 `
 `,
   },
+  {
+    id: 4,
+    date: 'Posted June 16, 2023',
+    preview: {
+      type: 'image',
+      url: 'pixhawk1.png', 
+      type2: 'video',
+      url2:'https://www.youtube.com/embed/0DnflN9C3cc',
+    },
+    
+    title: 'Make your own UAV with Pixhawk',
+    content: 
+`
+I recently went down a YouTube rabbit hole and came across an amazing piece of technology. The Pixhawk is an advanced autopilot system used in unmanned aerial vehicles (UAVs) and other robotic platforms. It provides precise navigation, control, and communication capabilities, allowing for autonomous flight and mission execution with a wide range of sensors and peripherals. What makes the Pixhawk unique is that it is essentially a plug and play piece of hardware that can turn nearly anything into a completely autonomous system with GPS waypoint route planning and automated adjustments to wind. Combining a Pixhawk powered drone or plane with machine learning can be used to aid a multitude of disciplines.
+
+Possbile applications of Pixhawk+Machine learning:
+- Wild fire tracking
+- Agriculture tracking
+- Land surveys
+- Search and rescue
+
+Someday soon I plan on exploring making my own UAVs and applying my knowledge of Computer Science to make a powerful tool for humanity.
+
+Pixhawks kits can be found for as low as $90 and can be installed on almost any vehicle with proper knowledge. In the video linked above, someone made a fully autonomous drone out of sticks and ducktape!
+
+Pixhawk website: https://pixhawk.org/
+`,
+  },
 ];
 
 const reversedBlogPosts = blogPosts.slice().reverse();

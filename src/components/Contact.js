@@ -6,6 +6,7 @@ const Contact = ({ setCurrentPage }) => {
     };
   return (
     <header>
+      <div style={headerStyle}>
       <h1>Contact</h1>
       <nav>
         <ul>
@@ -43,7 +44,7 @@ const Contact = ({ setCurrentPage }) => {
           </li>
         </ul>
       </nav>
-
+      </div>
       <div style={imageContainerStyle}>
         <a href="mailto:alexbaptista19@gmail.com">
           <img src={require('./images/email.png')} alt="email" style={imageStyle}></img>
@@ -78,6 +79,11 @@ const imageContainerStyle = {
   justifyContent: 'center',
   alignItems: 'center',
   padding: '100px'
+};
+
+const headerStyle = {
+  backgroundColor: '#222',
+  padding: '20px'
 };
 
 export default Contact;

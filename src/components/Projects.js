@@ -6,6 +6,7 @@ const Projects = ({ setCurrentPage }) => {
     };
   return (
     <header>
+      <div style={headerStyle}>
       <h1>Projects</h1>
       <nav>
         <ul>
@@ -43,7 +44,7 @@ const Projects = ({ setCurrentPage }) => {
           </li>
         </ul>
       </nav>
-
+      </div>
       <div style={projectContainerStyle}>
         <div style={projectBoxStyle}>
           <img src={require('./images/toby.jpg')} alt="Toby" style={imageStyle} />
@@ -153,4 +154,8 @@ const projectContainerStyle = {
   marginLeft: '20px',
   };
 
+  const headerStyle = {
+    backgroundColor: '#222',
+    padding: '20px'
+  };
 export default Projects;

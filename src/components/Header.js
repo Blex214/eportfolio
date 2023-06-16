@@ -6,6 +6,7 @@ const Header = ({ setCurrentPage }) => {
   };
   return (
     <header>
+      <div style={headerStyle}>
       <h1>Alex Baptista</h1>
       <nav>
         <ul>
@@ -43,7 +44,7 @@ const Header = ({ setCurrentPage }) => {
           </li>
         </ul>
       </nav>
-
+      </div>
       <div style={bioBoxStyle}>
         <h2>Recent Activity</h2>
         <p>
@@ -75,6 +76,11 @@ const bioBoxStyle = {
   marginTop: '100px',
   backgroundColor: '#222',
   textAlign: 'center',
+  padding: '20px'
+};
+
+const headerStyle = {
+  backgroundColor: '#222',
   padding: '20px'
 };
 export default Header;

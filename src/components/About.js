@@ -7,6 +7,7 @@ const About = ({ setCurrentPage }) => {
 
   return (
       <header>
+      <div style={headerStyle}>
         <h1>About me</h1>
       <nav>
         <ul>
@@ -44,7 +45,7 @@ const About = ({ setCurrentPage }) => {
           </li>
         </ul>
       </nav>
-
+      </div>
       <div style={bioBoxStyle}>
         <img
           src={require('./images/me.png')}
@@ -196,4 +197,8 @@ const bioBoxStyle1 = {
   boxShadow: '20px 20px 5px rgba(0, 0, 0, 200)'
 };
 
+const headerStyle = {
+  backgroundColor: '#222',
+  padding: '20px'
+};
 export default About;
