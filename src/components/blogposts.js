@@ -85,6 +85,20 @@ Pixhawks kits can be found for as low as $90 and can be installed on almost any 
 Pixhawk website: https://pixhawk.org/
 `,
   },
+  {
+    id: 5,
+    date: 'Posted June 21, 2023',
+    preview: {
+      type: 'image',
+      url: 'chatgptguide.png', 
+      type2: 'image',
+      url2:'',
+    },
+    
+    title: 'Credit to Zain Kahn for making this awesome chatgpt cheat sheet',
+    content: 
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7075084648543920129" height="undefined" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>,
+  },
 ];
 
 const reversedBlogPosts = blogPosts.slice().reverse();
