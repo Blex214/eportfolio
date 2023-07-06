@@ -1,7 +1,7 @@
 /* App.css */
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 /* Global styles */
-body {
+html,body {
   margin: 0;
   padding: 0;
   font-family: 'Ink Free', sans-serif;
@@ -12,6 +12,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
 }
 
 .container {
@@ -53,6 +54,7 @@ header h2 {
   font: '', sans-serif;
 }
 
+
 header p {
   color: #ffffff;
   font-size: 40px;
@@ -65,28 +67,51 @@ header p {
 nav {
   margin-top: 20px;
 }
-
-nav ul {
-  list-style-type: none;
-  display: flex;
+svg {
+  display: block;
+  font: 10.5em 'Montserrat';
+  width: 960px;
+  height: 300px;
+  margin: 0 auto;
 }
 
-nav li {
-  margin-right: 100px;
-  
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5.5s infinite linear;
 }
 
-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  transition: color 0.3s ease;
+.text-copy:nth-child(1){
+stroke: #ffffff;
+animation-delay: -1;
 }
 
-nav a:hover {
-  color: #99c5ff;
+.text-copy:nth-child(2){
+stroke: #a5c8ff;
+animation-delay: -2s;
 }
 
+.text-copy:nth-child(3){
+stroke: #5bfffa;
+animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+stroke: #00e1ff;
+animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+stroke: #31b6fd;
+animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+100% {stroke-dashoffset: -35%;}
+}
 
 
               
