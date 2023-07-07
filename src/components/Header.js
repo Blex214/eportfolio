@@ -53,7 +53,11 @@ const Header = ({ setCurrentPage }) => {
         <use xlinkHref="#s-text" class="text-copy"></use>
       </g>
     </svg>
-      
+    <div class="twriter_container">
+     <div  class="typewriter">
+        <h1>Software Developer. Engineer. Entrepreneur. Space Enthusiast.</h1>
+     </div>
+    </div>
       <nav>
         <ul style={buttonContainerStyle}>
         <li>
@@ -135,5 +139,7 @@ const buttonContainerStyle = {
   padding: '0',
   justifyContent: 'center',
 };
+
+
 export default Header;
 
