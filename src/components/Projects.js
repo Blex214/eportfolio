@@ -84,19 +84,6 @@ const Projects = ({ setCurrentPage }) => {
         </ul>
       </nav>
       </div>
-      <div style={projectContainerStyle}>
-        <div style={projectBoxStyle}>
-          <img src={require('./images/toby.jpg')} alt="Toby" style={imageStyle} />
-          <div style={descriptionStyle}>
-            <h2>Toby Bot</h2>
-            <p>A chat and sound bot for Discord inspired by my Cocker Spaniel/ Beagle mixed dog Toby</p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p><a href="https://github.com/Blex214/Discord-Bot-Toby" target="_blank" rel="noopener noreferrer" style={{ color: 'grey' }}>The code</a></p>
-          </div>
-        </div>
-      </div>
 
       <div style={projectContainerStyle}>
         <div style={projectBoxStyle}>
@@ -149,7 +136,19 @@ const Projects = ({ setCurrentPage }) => {
           <img src={require('./images/mywebsite.png')} alt="mysite1" target="_blank" rel="noopener noreferrer" style={imageStyle} />
         </div>
       </div>
-
+      <div style={projectContainerStyle}>
+        <div style={projectBoxStyle}>
+          <img src={require('./images/toby.jpg')} alt="Toby" style={imageStyle} />
+          <div style={descriptionStyle}>
+            <h2>Toby Bot</h2>
+            <p>A chat and sound bot for Discord inspired by my Cocker Spaniel/ Beagle mixed dog Toby</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p><a href="https://github.com/Blex214/Discord-Bot-Toby" target="_blank" rel="noopener noreferrer" style={{ color: 'grey' }}>The code</a></p>
+          </div>
+        </div>
+      </div>
 
       <p></p>
       <p></p>

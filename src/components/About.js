@@ -85,6 +85,18 @@ const About = ({ setCurrentPage }) => {
           </ul>
         </nav>
       </div>
+      
+      <div style={bioBoxStyle1}>
+          <h1>Resume</h1>
+      </div>
+      <p></p>
+      <p></p>
+      <p></p>
+      <img src={require('./images/resume.png')} alt="resume" style={imageStyle1} />
+      <p></p>
+      <p></p>
+      <p></p>
+
       <div style={bioBoxStyle}>
         <img
           src={require('./images/me.png')}
@@ -167,16 +179,7 @@ const About = ({ setCurrentPage }) => {
         />
       </div>
 
-      <div style={bioBoxStyle1}>
-          <h1>Resume</h1>
-      </div>
-      <p></p>
-      <p></p>
-      <p></p>
-      <img src={require('./images/resume.png')} alt="resume" style={imageStyle1} />
-      <p></p>
-      <p></p>
-      <p></p>
+      
       </header>
   );
 };
