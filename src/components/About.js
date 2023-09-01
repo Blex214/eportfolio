@@ -64,6 +64,16 @@ const About = ({ setCurrentPage }) => {
             </li>
             <li>
               <button
+                style={getButtonStyle('certifications')}
+                onMouseEnter={() => handleButtonMouseEnter('certifications')}
+                onMouseLeave={handleButtonMouseLeave}
+                onClick={() => handleLinkClick('certifications')}
+              >
+                Certifications
+              </button>
+            </li>
+            <li>
+              <button
                 style={getButtonStyle('projects')}
                 onMouseEnter={() => handleButtonMouseEnter('projects')}
                 onMouseLeave={handleButtonMouseLeave}
@@ -92,7 +102,9 @@ const About = ({ setCurrentPage }) => {
       <p></p>
       <p></p>
       <p></p>
-      <img src={require('./images/resume.png')} alt="resume" style={imageStyle1} />
+      <a href="https://docs.google.com/document/d/1sQOkXDJ3hStGWHscoq0TrzTy3aY-5NdI92JSAZfg_Ho/edit?usp=sharing" target = '_blank'>
+        <img src={require('./images/resume.png')} alt="resume" style={imageStyle1} />
+      </a>
       <p></p>
       <p></p>
       <p></p>

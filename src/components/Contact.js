@@ -63,6 +63,16 @@ const Contact = ({ setCurrentPage }) => {
             </li>
             <li>
               <button
+                style={getButtonStyle('certifications')}
+                onMouseEnter={() => handleButtonMouseEnter('certifications')}
+                onMouseLeave={handleButtonMouseLeave}
+                onClick={() => handleLinkClick('certifications')}
+              >
+                Certifications
+              </button>
+            </li>
+            <li>
+              <button
                 style={getButtonStyle('projects')}
                 onMouseEnter={() => handleButtonMouseEnter('projects')}
                 onMouseLeave={handleButtonMouseLeave}
