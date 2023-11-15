@@ -38,7 +38,7 @@ On April 17, 2023 SpaceX performed the first integrated test flight of Starship,
 
 Liftoff: The obvious first step for any rocket is to get off the launch pad. Starship is the most powerful rocket ever created so lifting off without a serious incident is a major milestone on its own.
 
-Max q: This describes the point during flight where the rocket experiences the maximum dynamic pressure. Inturn this is the most dangerous point for any rocket and is the time where the vehicle is most likely to fail. Starship was able to survive max q which is a major achievement for a rocket of this scale.
+Max q: This describes the point during flight where the rocket experiences the maximum dynamic pressure. Therefore, this is the most dangerous point for any rocket and is the time where the vehicle is most likely to fail. Starship was able to survive max q which is a major achievement for a rocket of this scale.
 
 Congratulations again to SpaceX for their successful test!`,
   },
@@ -98,6 +98,32 @@ Pixhawk website: https://pixhawk.org/
     title: 'Credit to Zain Kahn for making this awesome chatgpt cheat sheet',
     content: 
     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7075084648543920129" height="undefined" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>,
+  },
+
+  {
+    id: 6,
+    preview: {
+      type: 'video',
+      url: 'https://www.youtube.com/embed/mq2hymWPN1I?si=f0YfUespaqTIZ2Xj',
+      type2: 'video',
+      url2:'https://www.youtube.com/embed/18pCXD709TI?si=x1zw5Y7FLB90AzbV', 
+    },
+    date: 'Posted November 15, 2023',
+    title: 'STARSHIP SECOND FLIGHT TEST IS ALMOST HERE!!!!!',
+    content: 
+`
+SpaceX has been hard at work these last few months making thousands of improvements to Starship, Super Heavy Booster and the Orbital Launch Mount. They recently posted two videos listed above to hype up the second launch of the most powerful rocket ever!
+
+First Video:
+This video titled "Falcon 1, Flight 4" was a look back at SpaceX when they were still learning to fly with Falcon 1 and how close the company came to going bankrupt. SpaceX was the first private company to achieve orbit which is such a stunning achievement to this day!
+
+Second Video:
+The second video was titled "Starship | Preparing for Second Flight Test" and it was exactly what it sounds like. An awesome trailer showing breathtaking views of Starbase and the fully stacked Starship and Super Heavy on the new and improved Orbital Launch Mount.
+
+With both these videos coming out on the same day, it's clear how important SpaceX views this upcoming test to be. The excitement within SpaceX as well as the community is reaching an all time high! The first flight test was a historic achievement and I simply cannot wait to watch SpaceX light this candle for a second time.
+
+Best of luck SpaceX!!! OCCUPY MARS!!!
+`,
   },
 ];
 

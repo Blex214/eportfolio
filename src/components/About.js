@@ -102,7 +102,7 @@ const About = ({ setCurrentPage }) => {
       <p></p>
       <p></p>
       <p></p>
-      <a href="https://docs.google.com/document/d/1sQOkXDJ3hStGWHscoq0TrzTy3aY-5NdI92JSAZfg_Ho/edit?usp=sharing" target = '_blank'>
+      <a href="https://docs.google.com/document/d/1GDsbtLeAo-VBWt3UmeiAJmyXQdx1RRsk0D4Tt3m2pFE/edit?usp=sharing" target = '_blank'>
         <img src={require('./images/resume.png')} alt="resume" style={imageStyle1} />
       </a>
       <p></p>
