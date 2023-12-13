@@ -125,6 +125,31 @@ With both these videos coming out on the same day, it's clear how important Spac
 Best of luck SpaceX!!! OCCUPY MARS!!!
 `,
   },
+
+  {
+    id: 7,
+    preview: {
+      type: 'video',
+      url: 'https://www.youtube.com/embed/C3iHAgwIYtI?si=_F27zpZ7dML0P3Vi',
+      type2: 'image',
+      url2:'2ndtestflight.jpg', 
+    },
+    date: 'Posted December 13, 2023',
+    title: 'Second Flight Test was great!',
+    content: 
+`
+On November 18th, 2023 SpaceX conducted the Second Test Flight of the Starship lauch vehicle. The flight was launched from Starbase at 7:02 AM CT. The Super Heavy booster and Starship spacecraft separated after liftoff. The Starship's engines lit up and pushed away, reaching an altitude of 92 miles. The booster then experienced multiple engine failures and exploded after starting its boostback burn. The Starship's second stage continued to fly for over 8 minutes before the flight termination system detonated. 
+
+The second test flight improved on the first in April, which was when the spacecraft was lost just a few minutes after liftoff. SpaceX emphasized that the "test" aspect of these flights. Some successes included: 
+
+Notable progress since first flight test: 
+- All 39 Raptor engines worked
+- The ground infrastructure left in good shape
+- The "hot-staging" separation process was successful
+
+Congrats to SpaceX!!!
+`,
+  },
 ];
 
 const reversedBlogPosts = blogPosts.slice().reverse();
