@@ -140,7 +140,7 @@ Best of luck SpaceX!!! OCCUPY MARS!!!
 `
 On November 18th, 2023 SpaceX conducted the Second Test Flight of the Starship lauch vehicle. The flight was launched from Starbase at 7:02 AM CT. The Super Heavy booster and Starship spacecraft separated after liftoff. The Starship's engines lit up and pushed away, reaching an altitude of 92 miles. The booster then experienced multiple engine failures and exploded after starting its boostback burn. The Starship's second stage continued to fly for over 8 minutes before the flight termination system detonated. 
 
-The second test flight improved on the first in April, which was when the spacecraft was lost just a few minutes after liftoff. SpaceX emphasized that the "test" aspect of these flights. Some successes included: 
+The second test flight improved on the first in April, which was when the spacecraft was lost just a few minutes after liftoff. SpaceX emphasized that the "test" aspect of these flights. 
 
 Notable progress since first flight test: 
 - All 39 Raptor engines worked
